@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module register #(parameter DW = 16)(clk, rst, ld, in, out);
+module register #(parameter DW = 16) (clk, rst, ld, in, out);
 	input clk, rst, ld;
 	input [DW - 1:0] in;
 	output reg [DW - 1:0] out;

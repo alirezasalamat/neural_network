@@ -1,47 +1,25 @@
 `timescale 1ns / 1ps
 
-module datapath #(parameter n = 16)(clk, reg_rst, rst, ld, index, result);
-	input clk, rst, ld, reg_rst;
-	input [15:0] index;
-	output [15:0] result;
+module datapath #(parameter N = 16)(clk, reg_rst, ld, idx, res, in, w);
+	input clk, reg_rst, ld;
+	input [15:0] idx, res;
+	input [7:0] in, w;
 	
-	wire [7:0] input_vector;
-	wire [7:0] weight_vector;
+    wire [7:0] in_abs = {1'b0, in[6:0]},
+               w_abs = {1'b0, w[6:0]};
+    
+    wire out_mult_sgn = in[7] ^ w[7];
 	
-	selection_input #(n) sel (
-    .index(index), 
-    .out_input_vector(input_vector), 
-    .out_weight_vector(weight_vector)
-    );
+    wire [15:0] out_mult;
+	multiplier mul(in_abs, w_abs, out_mult);
+	
+	wire [15:0] out_addr;
+	wire [15:0] out_acc;
+	
+	adder #(16) add({out_mult_sgn, out_mult[14:0]}, out_acc, out_addr);
 	 
-	wire [15:0] out_multiplier; 
-	
-	multiplier mul  (
-    .a(input_vector), // input [7 : 0] a
-    .b(weight_vector), // input [7 : 0] b
-    .p(out_multiplier) // output [15 : 0] p
-	);
-	
-	wire [15:0] out_adder;
-	wire [15:0] out_accumulator;
-	
-	adder #(16) add  (
-    .a(out_multiplier),
-    .b(out_accumulator),
-    .out(out_adder)
-    );
-	 
-	register regis(
-    .clk(clk),
-    .rst(reg_rst),
-    .ld(ld),
-    .in(out_adder),
-    .out(out_accumulator)
-    );
+	register acc(clk, reg_rst, ld, out_addr, out_acc);
 
-	activation_function act (
-    .in(out_accumulator), 
-    .out(result)
-    );
+	activation_function act(out_acc, res);
 
 endmodule

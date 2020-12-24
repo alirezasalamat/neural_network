@@ -1,0 +1,238 @@
+# Project file /home/mahyar/Downloads/CAD-CA1P3-810197526_810197690/4-4multiplier-fpga-dev-Mahyar/4-4miltiplier-fpga.mpf was not found.
+# Unable to open project.
+# Loading project neural_network
+# Compile of activation_function.v was successful.
+# Compile of adder.v was successful.
+# Compile of register.v was successful.
+# Compile of selection_input.v was successful.
+# 4 compiles, 0 failed with no errors.
+# reading /home/mahyar/intelFPGA/18.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project 8-8multiplier
+# Compile of adder_1bit.v was successful.
+# Compile of adder_8bit.v was successful.
+# Compile of adder_16bit.v was successful.
+# Compile of multiplier_2bit.v was successful.
+# Compile of multiplier_4bit.v failed with 2 errors.
+# Compile of tb_multiplier_4bit.v was successful.
+# 6 compiles, 1 failed with 2 errors.
+# Compile of adder_1bit.v was successful.
+# Compile of adder_8bit.v was successful.
+# Compile of adder_16bit.v was successful.
+# Compile of multiplier_2bit.v was successful.
+# Compile of multiplier_4bit.v was successful.
+# Compile of tb_multiplier_4bit.v was successful.
+# 6 compiles, 0 failed with no errors.
+vsim work.tb_multiplier_4bit
+# vsim work.tb_multiplier_4bit 
+# Start time: 19:02:39 on Dec 24,2020
+# Loading work.tb_multiplier_4bit
+# Loading work.multiplier_4bit
+# Loading work.multiplier_2bit
+# Loading work.adder_8bit
+# Loading work.adder_1bit
+add wave /*
+run -all
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libpthread.so.0 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/librt.so.1 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libdl.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libm.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libc.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/ld-linux.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libnss_files.so.2 : module was loaded at an absolute address.
+#                    0: MULTIPLIER 2 BIT: OUT= 2
+#                    0: MULTIPLIER 2 BIT: OUT= 4
+#                    0: MULTIPLIER 2 BIT: OUT= 2
+#                    0: MULTIPLIER 2 BIT: OUT= 1
+#                  200: MULTIPLIER 2 BIT: OUT= 0
+#                  200: MULTIPLIER 2 BIT: OUT= 0
+#                  200: MULTIPLIER 2 BIT: OUT= 6
+#                  200: MULTIPLIER 2 BIT: OUT= 6
+#                  400: MULTIPLIER 2 BIT: OUT= 2
+#                  400: MULTIPLIER 2 BIT: OUT= 2
+#                  400: MULTIPLIER 2 BIT: OUT= 3
+#                  400: MULTIPLIER 2 BIT: OUT= 3
+#                  600: MULTIPLIER 2 BIT: OUT= 0
+#                  600: MULTIPLIER 2 BIT: OUT= 3
+#                  600: MULTIPLIER 2 BIT: OUT= 9
+#                  600: MULTIPLIER 2 BIT: OUT= 0
+#                  800: MULTIPLIER 2 BIT: OUT= 2
+#                  800: MULTIPLIER 2 BIT: OUT= 2
+#                  800: MULTIPLIER 2 BIT: OUT= 3
+#                  800: MULTIPLIER 2 BIT: OUT= 3
+#                 1000: MULTIPLIER 2 BIT: OUT= 1
+#                 1000: MULTIPLIER 2 BIT: OUT= 1
+#                 1000: MULTIPLIER 2 BIT: OUT= 3
+#                 1000: MULTIPLIER 2 BIT: OUT= 3
+# Compile of adder_1bit.v was successful.
+# Compile of adder_8bit.v was successful.
+# Compile of adder_16bit.v was successful.
+# Compile of multiplier_2bit.v was successful.
+# Compile of multiplier_4bit.v was successful.
+# Compile of tb_multiplier_4bit.v was successful.
+# Compile of multiplier_8bit.v was successful.
+# 7 compiles, 0 failed with no errors.
+# Compile of adder_1bit.v was successful.
+# Compile of adder_8bit.v was successful.
+# Compile of adder_16bit.v was successful.
+# Compile of multiplier_2bit.v was successful.
+# Compile of multiplier_4bit.v was successful.
+# Compile of tb_multiplier_4bit.v was successful.
+# Compile of multiplier_8bit.v was successful.
+# Compile of tb_multiplier_8bit.v was successful with warnings.
+# 8 compiles, 0 failed with no errors.
+# Load canceled
+# Compile of adder_1bit.v was successful.
+# Compile of adder_8bit.v was successful.
+# Compile of adder_16bit.v was successful.
+# Compile of multiplier_2bit.v was successful.
+# Compile of multiplier_4bit.v was successful.
+# Compile of tb_multiplier_4bit.v was successful.
+# Compile of multiplier_8bit.v was successful.
+# Compile of tb_multiplier_8bit.v was successful with warnings.
+# 8 compiles, 0 failed with no errors.
+# Compile of adder_1bit.v was successful.
+# Compile of adder_8bit.v was successful.
+# Compile of adder_16bit.v was successful.
+# Compile of multiplier_2bit.v was successful.
+# Compile of multiplier_4bit.v was successful.
+# Compile of tb_multiplier_4bit.v was successful.
+# Compile of multiplier_8bit.v was successful.
+# Compile of tb_multiplier_8bit.v was successful with warnings.
+# 8 compiles, 0 failed with no errors.
+# Compile of adder_1bit.v was successful.
+# Compile of adder_8bit.v was successful.
+# Compile of adder_16bit.v was successful.
+# Compile of multiplier_2bit.v was successful.
+# Compile of multiplier_4bit.v was successful.
+# Compile of tb_multiplier_4bit.v was successful.
+# Compile of multiplier_8bit.v was successful.
+# Compile of tb_multiplier_8bit.v was successful.
+# 8 compiles, 0 failed with no errors.
+vsim work.tb_multiplier_8bit
+# End time: 19:20:36 on Dec 24,2020, Elapsed time: 0:17:57
+# Errors: 1, Warnings: 8
+# vsim work.tb_multiplier_8bit 
+# Start time: 19:20:36 on Dec 24,2020
+# Loading work.tb_multiplier_8bit
+# Loading work.multiplier_4bit
+# Loading work.multiplier_2bit
+# Loading work.adder_8bit
+# Loading work.adder_1bit
+# ** Warning: (vsim-3015) /media/mahyar/Program/CAs/CAD_CAs/8-8multiplier/tb_multiplier_8bit.v(7): [PCDPC] - Port size (4) does not match connection size (8) for port 'a'. The port definition is at: /media/mahyar/Program/CAs/CAD_CAs/8-8multiplier/multiplier_4bit.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_multiplier_8bit/mult File: /media/mahyar/Program/CAs/CAD_CAs/8-8multiplier/multiplier_4bit.v
+# ** Warning: (vsim-3015) /media/mahyar/Program/CAs/CAD_CAs/8-8multiplier/tb_multiplier_8bit.v(7): [PCDPC] - Port size (4) does not match connection size (8) for port 'b'. The port definition is at: /media/mahyar/Program/CAs/CAD_CAs/8-8multiplier/multiplier_4bit.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_multiplier_8bit/mult File: /media/mahyar/Program/CAs/CAD_CAs/8-8multiplier/multiplier_4bit.v
+# ** Warning: (vsim-3015) /media/mahyar/Program/CAs/CAD_CAs/8-8multiplier/tb_multiplier_8bit.v(7): [PCDPC] - Port size (8) does not match connection size (16) for port 'out'. The port definition is at: /media/mahyar/Program/CAs/CAD_CAs/8-8multiplier/multiplier_4bit.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_multiplier_8bit/mult File: /media/mahyar/Program/CAs/CAD_CAs/8-8multiplier/multiplier_4bit.v
+# Compile of adder_1bit.v was successful.
+# Compile of adder_8bit.v was successful.
+# Compile of adder_16bit.v was successful.
+# Compile of multiplier_2bit.v was successful.
+# Compile of multiplier_4bit.v was successful.
+# Compile of tb_multiplier_4bit.v was successful.
+# Compile of multiplier_8bit.v was successful.
+# Compile of tb_multiplier_8bit.v was successful.
+# 8 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_multiplier_8bit
+# Loading work.multiplier_8bit
+# Loading work.multiplier_4bit
+# Loading work.multiplier_2bit
+# Loading work.adder_8bit
+# Loading work.adder_16bit
+# Loading work.adder_1bit
+# ** Warning: (vsim-3015) /media/mahyar/Program/CAs/CAD_CAs/8-8multiplier/multiplier_8bit.v(13): [PCDPC] - Port size (8) does not match connection size (16) for port 'a'. The port definition is at: /media/mahyar/Program/CAs/CAD_CAs/8-8multiplier/adder_16bit.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_multiplier_8bit/mult/add_mid File: /media/mahyar/Program/CAs/CAD_CAs/8-8multiplier/adder_16bit.v
+# ** Warning: (vsim-3015) /media/mahyar/Program/CAs/CAD_CAs/8-8multiplier/multiplier_8bit.v(13): [PCDPC] - Port size (8) does not match connection size (16) for port 'b'. The port definition is at: /media/mahyar/Program/CAs/CAD_CAs/8-8multiplier/adder_16bit.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_multiplier_8bit/mult/add_mid File: /media/mahyar/Program/CAs/CAD_CAs/8-8multiplier/adder_16bit.v
+# ** Warning: (vsim-3015) /media/mahyar/Program/CAs/CAD_CAs/8-8multiplier/multiplier_8bit.v(13): [PCDPC] - Port size (8) does not match connection size (16) for port 'r'. The port definition is at: /media/mahyar/Program/CAs/CAD_CAs/8-8multiplier/adder_16bit.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_multiplier_8bit/mult/add_mid File: /media/mahyar/Program/CAs/CAD_CAs/8-8multiplier/adder_16bit.v
+# ** Warning: (vsim-3015) /media/mahyar/Program/CAs/CAD_CAs/8-8multiplier/multiplier_8bit.v(16): [PCDPC] - Port size (8) does not match connection size (16) for port 'a'. The port definition is at: /media/mahyar/Program/CAs/CAD_CAs/8-8multiplier/adder_16bit.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_multiplier_8bit/mult/add_total File: /media/mahyar/Program/CAs/CAD_CAs/8-8multiplier/adder_16bit.v
+# ** Warning: (vsim-3015) /media/mahyar/Program/CAs/CAD_CAs/8-8multiplier/multiplier_8bit.v(16): [PCDPC] - Port size (8) does not match connection size (16) for port 'b'. The port definition is at: /media/mahyar/Program/CAs/CAD_CAs/8-8multiplier/adder_16bit.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_multiplier_8bit/mult/add_total File: /media/mahyar/Program/CAs/CAD_CAs/8-8multiplier/adder_16bit.v
+# ** Warning: (vsim-3015) /media/mahyar/Program/CAs/CAD_CAs/8-8multiplier/multiplier_8bit.v(16): [PCDPC] - Port size (8) does not match connection size (16) for port 'r'. The port definition is at: /media/mahyar/Program/CAs/CAD_CAs/8-8multiplier/adder_16bit.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_multiplier_8bit/mult/add_total File: /media/mahyar/Program/CAs/CAD_CAs/8-8multiplier/adder_16bit.v
+# Compile of adder_1bit.v was successful.
+# Compile of adder_8bit.v was successful.
+# Compile of adder_16bit.v was successful.
+# Compile of multiplier_2bit.v was successful.
+# Compile of multiplier_4bit.v was successful.
+# Compile of tb_multiplier_4bit.v was successful.
+# Compile of multiplier_8bit.v was successful.
+# Compile of tb_multiplier_8bit.v was successful.
+# 8 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_multiplier_8bit
+# Loading work.multiplier_8bit
+# Loading work.multiplier_4bit
+# Loading work.multiplier_2bit
+# Loading work.adder_8bit
+# Loading work.adder_16bit
+# Loading work.adder_1bit
+add wave *
+run -all
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libpthread.so.0 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/librt.so.1 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libdl.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libm.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libc.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/ld-linux.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libnss_files.so.2 : module was loaded at an absolute address.
+# Compile of adder_1bit.v was successful.
+# Compile of adder_8bit.v was successful.
+# Compile of adder_16bit.v was successful.
+# Compile of multiplier_2bit.v was successful.
+# Compile of multiplier_4bit.v was successful.
+# Compile of tb_multiplier_4bit.v was successful.
+# Compile of multiplier_8bit.v was successful.
+# Compile of tb_multiplier_8bit.v was successful.
+# 8 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_multiplier_8bit
+# Loading work.multiplier_8bit
+# Loading work.multiplier_4bit
+# Loading work.multiplier_2bit
+# Loading work.adder_8bit
+# Loading work.adder_16bit
+# Loading work.adder_1bit
+run -a
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libpthread.so.0 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/librt.so.1 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libdl.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libm.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libc.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/ld-linux.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libnss_files.so.2 : module was loaded at an absolute address.
+add wave /*
+restart -f
+add wave /*
+quit -sim
+# End time: 19:25:48 on Dec 24,2020, Elapsed time: 0:05:12
+# Errors: 0, Warnings: 25
+vsim work.tb_multiplier_8bit
+# vsim work.tb_multiplier_8bit 
+# Start time: 19:25:55 on Dec 24,2020
+# Loading work.tb_multiplier_8bit
+# Loading work.multiplier_8bit
+# Loading work.multiplier_4bit
+# Loading work.multiplier_2bit
+# Loading work.adder_8bit
+# Loading work.adder_16bit
+# Loading work.adder_1bit
+add wave *
+run -all
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libpthread.so.0 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/librt.so.1 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libdl.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libm.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libc.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/ld-linux.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libnss_files.so.2 : module was loaded at an absolute address.
+quit -sim
+# End time: 19:28:29 on Dec 24,2020, Elapsed time: 0:02:34
+# Errors: 0, Warnings: 8
