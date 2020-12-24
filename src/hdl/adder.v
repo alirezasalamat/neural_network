@@ -1,23 +1,5 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date:    17:32:29 12/21/2020 
-// Design Name: 
-// Module Name:    adder 
-// Project Name: 
-// Target Devices: 
-// Tool versions: 
-// Description: 
-//
-// Dependencies: 
-//
-// Revision: 
-// Revision 0.01 - File Created
-// Additional Comments: 
-//
-//////////////////////////////////////////////////////////////////////////////////
+
 module adder #(parameter DW = 8) (a, b, out);
 	input [DW - 1:0] a, b;
 	output reg [DW - 1:0] out;
