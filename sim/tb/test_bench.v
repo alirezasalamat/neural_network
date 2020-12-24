@@ -25,7 +25,7 @@
 module test_bench();
 
 	// Inputs
-	reg clk = 1'b0;
+	reg clk;
 	reg rst;
 	reg start;
 
@@ -42,15 +42,18 @@ module test_bench();
 		.ready(ready)
 	);
 
-	always #10 clk = ~clk;
+	initial begin
+		clk = 1'b0;
+		repeat(10000) #5 clk = ~clk;
+	end
 
 	initial begin
-		#20
-		rst = 1'b1;
+		start = 1'b0;
+		#20 rst = 1'b1;
 		#20 rst = 1'b0;
-		#20 start = 1;
-		#1000 $stop;
-	end
-      
+		#20 start = 1'b1;
+		#500 start = 1'b0;
+		#500 start = 1'b1;
+		#500 $stop;
+	end     
 endmodule
-

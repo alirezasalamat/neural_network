@@ -23,7 +23,7 @@ module activation_function(in, out);
 	output reg [15:0] out;
 	
 	always @(in)begin
-		if(in <= 16'b0000000100000000)begin
+		if(in[14:0] <= 15'b0000001_00000000 || in[15] == 1'b1)begin
 			out <= 16'b0;
 		end
 		else begin
